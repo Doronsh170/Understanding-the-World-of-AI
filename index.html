@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>מפת הדרכים של עולם ה-AI - 2026</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Heebo', sans-serif;
+            background-color: #0f172a;
+            color: #f1f5f9;
+            scroll-behavior: smooth;
+        }
+        .step-card {
+            background: rgba(30, 41, 59, 0.7);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(51, 65, 85, 0.5);
+            transition: all 0.3s ease;
+        }
+        .step-card:hover {
+            transform: translateY(-5px);
+            border-color: #38bdf8;
+            box-shadow: 0 10px 30px -15px rgba(56, 189, 248, 0.3);
+        }
+        .gradient-text {
+            background: linear-gradient(90deg, #38bdf8, #818cf8);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .bottom-line {
+            background: rgba(56, 189, 248, 0.1);
+            border-right: 4px solid #38bdf8;
+        }
+        .step-number {
+            background: linear-gradient(135deg, #38bdf8, #1e40af);
+            width: 40px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            font-weight: bold;
+            font-size: 1.2rem;
+        }
+    </style>
+</head>
+<body class="p-4 md:p-8">
+
+    <!-- Header Section -->
+    <header class="max-w-4xl mx-auto text-center mb-16 mt-8">
+        <h1 class="text-4xl md:text-6xl font-extrabold mb-4">המדריך המלא לעולם ה-<span class="gradient-text">AI</span></h1>
+        <p class="text-slate-400 text-lg md:text-xl">מנתונים גולמיים ועד לבינה פיזית: כך בנויה המהפכה של 2026</p>
+        <div class="mt-8 flex justify-center gap-4 flex-wrap">
+             <span class="bg-blue-900/30 text-blue-400 px-4 py-1 rounded-full text-sm border border-blue-500/30 font-medium">GTC 2026 Insights</span>
+             <span class="bg-indigo-900/30 text-indigo-400 px-4 py-1 rounded-full text-sm border border-indigo-500/30 font-medium">Inference Era</span>
+             <span class="bg-sky-900/30 text-sky-400 px-4 py-1 rounded-full text-sm border border-sky-500/30 font-medium">Agentic AI</span>
+        </div>
+    </header>
+
+    <main class="max-w-4xl mx-auto space-y-12 mb-20">
+
+        <!-- Step 1 -->
+        <section class="step-card p-6 md:p-8 rounded-2xl relative overflow-hidden">
+            <div class="flex items-center gap-4 mb-4">
+                <div class="step-number">1</div>
+                <h2 class="text-2xl font-bold">מאיפה הכל מתחיל: נתונים</h2>
+            </div>
+            <div class="space-y-4 text-slate-300 leading-relaxed">
+                <p>כל מערכת AI מתחילה מנתונים. הנתונים יכולים להיות טקסט, תמונות, קול, וידאו, קוד, מסמכים, טבלאות, או מידע ארגוני. בלי נתונים אין למודל על מה ללמוד, ועל מה לעבוד אחר כך.</p>
+                <p>כשחברה בונה מערכת AI לעצמה, היא לא מסתמכת רק על "הידע הכללי של האינטרנט", אלא גם על מסמכים פנימיים, בסיסי נתונים, נהלים, CRM, ERP, ומקורות מידע חיים. זה בדיוק אחד הרעיונות מאחורי <strong>RAG</strong>, כלומר חיבור מודל למאגרי מידע חיצוניים כדי שהתשובה תהיה מעוגנת יותר במידע אמיתי ורלוונטי.</p>
+            </div>
+            <div class="bottom-line mt-6 p-4 rounded-lg">
+                <span class="font-bold text-sky-400">במילים פשוטות:</span>
+                הנתונים הם חומר הגלם.
+            </div>
+        </section>
+
+        <!-- Step 2 -->
+        <section class="step-card p-6 md:p-8 rounded-2xl">
+            <div class="flex items-center gap-4 mb-4">
+                <div class="step-number">2</div>
+                <h2 class="text-2xl font-bold text-white">המודל: ה"מוח"</h2>
+            </div>
+            <div class="space-y-4 text-slate-300">
+                <p>המודל הוא החלק שמנסה לזהות דפוסים בנתונים ולייצר תשובה. כשאנשים אומרים ChatGPT, Gemini או Claude, הם בעצם מתכוונים למודל או למערכת שמפעילה מודל.</p>
+                <p>המודל יודע לקרוא טקסט, לנסח, לסכם, להשוות, לענות, ולפעמים גם להבין תמונות, קול או וידאו. ב-2026 כבר מקובל לראות מודלים מולטימודליים, לא רק מודלי טקסט. גם ב-GTC 2026 נבידיה מסגרה את המרחב הזה כרחב יותר מ-chatbot, עם חיבור ל-agentic AI ו-physical AI.</p>
+            </div>
+            <div class="bottom-line mt-6 p-4 rounded-lg">
+                <span class="font-bold text-sky-400">במילים פשוטות:</span>
+                המודל הוא המוח, אבל הוא עדיין לא "עובד" שלם.
+            </div>
+        </section>
+
+        <!-- Step 3 -->
+        <section class="step-card p-6 md:p-8 rounded-2xl border-l-4 border-indigo-500">
+            <div class="flex items-center gap-4 mb-4">
+                <div class="step-number">3</div>
+                <h2 class="text-2xl font-bold text-white">אימון לעומת שימוש: Training מול Inference</h2>
+            </div>
+            <div class="grid md:grid-cols-2 gap-6 mt-4">
+                <div class="bg-slate-800/50 p-4 rounded-xl">
+                    <h3 class="font-bold text-indigo-400 mb-2">Training (אימון)</h3>
+                    <p class="text-sm text-slate-300">בניית המודל על כמויות עצומות של נתונים ומחשוב. תהליך יקר וכבד מאוד הנעשה על ידי החברות הגדולות.</p>
+                </div>
+                <div class="bg-slate-800/50 p-4 rounded-xl">
+                    <h3 class="font-bold text-sky-400 mb-2">Inference (שימוש)</h3>
+                    <p class="text-sm text-slate-300">הרגע שבו המשתמש כותב שאלה והמודל מחזיר תשובה. זהו לב הפעילות היומיומית והדגש המרכזי ב-2026.</p>
+                </div>
+            </div>
+            <div class="bottom-line mt-6 p-4 rounded-lg">
+                <span class="font-bold text-sky-400">במילים פשוטות:</span>
+                Training הוא "ללמד את המוח", Inference הוא "להפעיל את המוח".
+            </div>
+        </section>
+
+        <!-- Step 4 -->
+        <section class="step-card p-6 md:p-8 rounded-2xl">
+            <div class="flex items-center gap-4 mb-4">
+                <div class="step-number">4</div>
+                <h2 class="text-2xl font-bold text-white">טוקנים: איך המערכת סופרת שימוש</h2>
+            </div>
+            <p class="text-slate-300 mb-4">טוקן הוא יחידת טקסט שהמודל סופר. זה לא בדיוק מילה, אלא "חתיכות טקסט". שירותי API מתמחרים לפי טוקנים (Input/Output).</p>
+            <div class="bg-slate-900/50 p-4 rounded-lg border border-slate-700 italic text-slate-400">
+                למה זה חשוב? כי בעולם הישן שילמת על רישיון תוכנה. בעולם החדש אתה משלם לפי שימוש, דומה לחשבון חשמל או ענן.
+            </div>
+            <div class="bottom-line mt-6 p-4 rounded-lg">
+                <span class="font-bold text-sky-400">במילים פשוטות:</span>
+                טוקנים הם מונה השימוש של עולם ה-AI.
+            </div>
+        </section>
+
+        <!-- Steps 5 & 6 (Combined visually) -->
+        <div class="grid md:grid-cols-2 gap-8">
+            <section class="step-card p-6 md:p-8 rounded-2xl border-t-4 border-yellow-500">
+                <div class="flex items-center gap-4 mb-4">
+                    <div class="step-number">5+6</div>
+                    <h2 class="text-2xl font-bold text-white">מהפכת הסוכנים (Agents)</h2>
+                </div>
+                <p class="text-slate-300 mb-4">מודל לבד יודע לענות, אבל סוכן יודע <strong>לבצע</strong>. סוכן לוקח מטרה, מפרקת אותה לצעדים, משתמש בכלים (כמו הרצת קוד או שליחת מייל) ובודק את עצמו.</p>
+                <div class="bottom-line mt-6 p-4 rounded-lg">
+                    <span class="font-bold text-sky-400">במילים פשוטות:</span>
+                    צ’אט עונה. סוכן מבצע.
+                </div>
+            </section>
+
+            <section class="step-card p-6 md:p-8 rounded-2xl">
+                <div class="flex items-center gap-4 mb-4">
+                    <div class="step-number">7</div>
+                    <h2 class="text-2xl font-bold text-white">זיכרון והקשר: Context</h2>
+                </div>
+                <p class="text-slate-300 mb-4">המודל לא באמת "זוכר" הכל. הוא עובד בתוך "חלון הקשר" (Context Window). כדי שיעבוד על מידע רב, משתמשים ב-RAG כדי להזרים לו את המידע הנכון ברגע הנכון.</p>
+                <div class="bottom-line mt-6 p-4 rounded-lg">
+                    <span class="font-bold text-sky-400">במילים פשוטות:</span>
+                    מנגנון שמחזיר למודל את המידע הנכון בזמן הנכון.
+                </div>
+            </section>
+        </div>
+
+        <!-- Step 8 -->
+        <section class="step-card p-6 md:p-8 rounded-2xl bg-gradient-to-br from-slate-800 to-blue-900/20">
+            <div class="flex items-center gap-4 mb-4">
+                <div class="step-number">8</div>
+                <h2 class="text-2xl font-bold text-white">מה זה AI Factory</h2>
+            </div>
+            <div class="space-y-4 text-slate-300">
+                <p>זהו פס ייצור של אינטליגנציה. לא רק מרכז נתונים עם שרתים, אלא תשתית שלמה המקבלת מידע, מריצה מודלים, ומחזירה תוצרים בקנה מידה עצום.</p>
+                <p>ב-GTC 2026 נחשפה מערכת <strong>Dynamo</strong> של נבידיה, שנועדה להפוך את ה-Inference למנוע המרכזי של המפעלים הללו.</p>
+            </div>
+            <div class="bottom-line mt-6 p-4 rounded-lg">
+                <span class="font-bold text-sky-400">במילים פשוטות:</span>
+                פס ייצור של תשובות, תובנות ופעולות.
+            </div>
+        </section>
+
+        <!-- Steps 9 & 10 & 11 -->
+        <section class="step-card p-6 md:p-8 rounded-2xl">
+            <div class="flex items-center gap-4 mb-6">
+                <div class="step-number">9-11</div>
+                <h2 class="text-2xl font-bold text-white">המעבר לעולם הפיזי (Physical AI)</h2>
+            </div>
+            <div class="grid md:grid-cols-3 gap-6">
+                <div class="space-y-2">
+                    <h4 class="font-bold text-sky-400">החשיבות של Inference</h4>
+                    <p class="text-sm text-slate-400">אם אימון הוא בניית מנוע, Inference הוא כל הקילומטרים שהרכב עושה אחר כך.</p>
+                </div>
+                <div class="space-y-2">
+                    <h4 class="font-bold text-sky-400">תשתיות ענק</h4>
+                    <p class="text-sm text-slate-400">שבבים, חשמל, קירור ואחסון. AI הוא כבר מזמן לא רק תוכנה.</p>
+                </div>
+                <div class="space-y-2">
+                    <h4 class="font-bold text-sky-400">Physical AI</h4>
+                    <p class="text-sm text-slate-400">השלב הבא: רובוטים ומכונות שרואים, מנווטים ומפעילים דברים בעולם האמיתי.</p>
+                </div>
+            </div>
+            <div class="bottom-line mt-8 p-4 rounded-lg">
+                <span class="font-bold text-sky-400">במילים פשוטות:</span>
+                ה-AI יוצא מהמסך אל קווי הייצור והעולם הפיזי.
+            </div>
+        </section>
+
+        <!-- Step 12 & 13 -->
+        <section class="p-8 md:p-12 rounded-3xl bg-blue-600 text-white shadow-2xl">
+            <h2 class="text-3xl font-extrabold mb-6">סיכום: איפה נמצא הערך האמיתי?</h2>
+            <p class="text-blue-100 text-lg mb-8 leading-relaxed">
+                מודל טוב הוא חשוב, אבל <strong>מערכת טובה חשובה יותר</strong>. הערך האמיתי נמצא בחיבור של התשתיות, המודלים, הנתונים והסוכנים לכדי זרימת עבודה (Workflow) אחת חלקה.
+            </p>
+            
+            <div class="bg-white/10 p-6 rounded-2xl backdrop-blur-sm border border-white/20">
+                <h3 class="font-bold text-xl mb-4 underline">הסיפור ברצף אחד:</h3>
+                <ul class="space-y-3 text-sm md:text-base">
+                    <li>🔹 <strong>נתונים</strong> זורמים למערכת.</li>
+                    <li>🔹 <strong>מודל</strong> מעבד אותם (Inference).</li>
+                    <li>🔹 <strong>סוכנים</strong> משתמשים במודל כדי לבצע פעולות.</li>
+                    <li>🔹 <strong>AI Factories</strong> מריצים את הכל בקנה מידה.</li>
+                    <li>🔹 <strong>Physical AI</strong> מזיז דברים בעולם האמיתי.</li>
+                </ul>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="text-center text-slate-500 pb-12 text-sm border-t border-slate-800 pt-8 max-w-4xl mx-auto">
+        <p class="mb-2">© 2026 - מוגש כשירות להבנת טכנולוגיות העתיד</p>
+        <p class="text-xs text-slate-600">מאת: דורון שרייבמן</p>
+    </footer>
+
+</body>
+</html>
